@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B048B5"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:screenOrientation="portrait"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Covenant University Tour Guide" />
+
+    <Button
+        android:id="@+id/aboutbuilding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/aboutcu"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="24dp"
+        android:drawableTop="@drawable/building"
+        android:text="Building Info"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/searchcu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/aboutbuilding"
+        android:layout_alignBottom="@+id/aboutbuilding"
+        android:layout_centerHorizontal="true"
+        android:drawableTop="@drawable/search"
+        android:text="Search CU"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/searchcu"
+        android:layout_alignBottom="@+id/searchcu"
+        android:layout_toRightOf="@+id/textView1"
+        android:drawableTop="@drawable/gallery"
+        android:text="View Gallery"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/aboutcu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutbuilding"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:drawableTop="@drawable/university"
+        android:text="About CU"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/findbuildings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/aboutcu"
+        android:layout_alignBottom="@+id/aboutcu"
+        android:layout_alignLeft="@+id/searchcu"
+        android:drawableTop="@drawable/map"
+        android:text="CU Map"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/historycu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/findbuildings"
+        android:layout_alignBottom="@+id/findbuildings"
+        android:layout_alignLeft="@+id/gallery"
+        android:drawableTop="@drawable/history"
+        android:text="CU History"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/expofficials"
+        android:layout_width="100dp"
+        android:layout_height="170dip"
+        android:layout_alignLeft="@+id/findbuildings"
+        android:layout_alignRight="@+id/findbuildings"
+        android:layout_alignTop="@+id/tourmemories"
+        android:drawableTop="@drawable/management"
+        android:text="Management"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/tourmemories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutcu"
+        android:layout_marginTop="24dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:drawableTop="@drawable/camera"
+        android:text="Camera"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/acuvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/historycu"
+        android:layout_alignTop="@+id/expofficials"
+        android:drawableTop="@drawable/cuvideo"
+        android:textColor="#fff"
+        android:text="CU Video" />
+
+    <Button
+        android:id="@+id/cualumni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tourmemories"
+        android:layout_alignRight="@+id/tourmemories"
+        android:layout_below="@+id/expofficials"
+        android:layout_marginTop="32dp"
+        android:textColor="#fff"
+        android:drawableTop="@drawable/cualumni"
+        android:text="CU Alumni" />
+
+    <Button
+        android:id="@+id/studentinnovation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cualumni"
+        android:layout_alignLeft="@+id/expofficials"
+        android:layout_alignRight="@+id/expofficials"
+        android:drawableTop="@drawable/cuinnovation"
+        android:text="CU Innovations" 
+        android:textColor="#fff"  />
+
+    <Button
+        android:id="@+id/universityaward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/studentinnovation"
+        android:layout_alignRight="@+id/acuvideo"
+        android:layout_toRightOf="@+id/textView1"
+        android:drawableTop="@drawable/cuaward"
+        android:textColor="#fff"
+        android:text="CU Awards" />
+
+</RelativeLayout>

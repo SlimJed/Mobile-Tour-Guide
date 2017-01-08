@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cualumni"
+        android:layout_width="fill_parent"
+        android:background="#F68EFB"
+        android:layout_height="fill_parent"
+         >
+  <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+      <TextView
+            android:id="@+id/aboutcutext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="CU Alumni"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/cugrad" />
+
+    <TextView
+        android:id="@+id/cualumnitext"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="
+Students don’t just leave CU when they graduate, they move on to become members of the extended CU community.
+\tThe CU Alumni Association and the CU Office of Alumni Relations together serve the more than 9,000 alumni living around the globe, helping strengthen their lifelong connection to Covenant University. Whether it is through the annual reunion meeting that holds in October at CU or at another chapter around the world, there are many ways to remain connected. Alumni receives, a monthly email newsletter, and lots more.
+\tIn CU, some of the notable alumni who have become members of the CU community include:\n\n
+•	Olumuyiwa Oludayo – Current, Registrar Covenant University,\n
+•	Ezenwoke Azubuike, Mr.  – Current, Dean of Student, Covenant University\n
+•	Dr. Ada Peters – Immediate past Chaplain, Covenant University\n
+•	Pastor Steve Ogah – Immediate past, Director CSIS\n
+" />
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/historycu"
+        android:layout_width="fill_parent"
+        android:background="#F68EFB"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/historycuback" >
+        
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/aboutcutext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Covenant University History"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cugate" />
+  
+    <TextView
+        android:id="@+id/text"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="
+Covenant University is a product of the Liberation Commission that God gave to Bishop Oyedepo in a May 1981 vision-encounter. The drive to embark on the process of founding CU came about October of 1999, one month after the dedication of Faith Tabernacle, the largest church auditorium in the world, built in one year with only local resources. As with all segments of the main vision, Bishop Oyedepo immediately kindled the fire for accomplishment of the new task. By November 27, 1999, an in-house Consortium on the take-off of the University was inaugurated and by December 1999 the application form for a private university operating license was issued by the National Universities Commission (NUC).
+As the activities of the Consortium wound up early in 2001, an Advisory Council was inaugurated on February 17,2001 to develop appropriate structures for the take-off of the University. By July 15, 2001, the verification team of the NUC came for final inspection of facilities and programmes. The outcome of that visit was the Federal Government&apos;s approval of CU on January 16, 2002. This approval was sealed with the presentation of the operating license to CU on February 12, 2002, by which CU, Ota, Ogun State, was authorised to operate as a private university in Nigeria.
+Not only was this approval the fastest in the history of the 16 applications for establishment of private universities filed with the NUC (7 years being the next duration), but Covenant University&apos;s assessment score was also the highest.
+The foundation stone of the permanent site was laid on Sunday, January 27, 2002 and construction began diligently in March of the same year. The first phase of development was completed eight months later while the first batch of about 1500 students was ushered into an ultra-modern university campus after an early morning inauguration on October 2002.
+\n\n
+" />
+
+     <TextView
+            android:id="@+id/aboutcutext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="The Meaning Behind the Covenant Name"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+            
+       
+       <TextView
+        android:id="@+id/text"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:text="
+All over Africa, particularly in Nigeria, a great significance is attached to names. Names carry meanings and important messages. They reflect circumstances of birth or events that occur in the environment of that birth. 
+The word Covenant was chosen to express the University&apos;s total commitment and vow to perform its best in the process of making the Total Man of all her students. It reflects the intention of the proprietors of the University to uphold her agreement with her students to facilitate the fulfillment of their desires for excellence and career exploits by offering them the best in educational development and, thereby, offering their parents and guardians the best value for their investment in their children. 
+It is also common knowledge that every covenant is ratified by blood and, as a mission-sponsored university, we consider the blood of Jesus Christ, which is the blood of the everlasting covenant, as our stronghold for the fulfillment of this awesome obligation. 
+Covenant University vows to transform her products, that is, her graduates as, into expert thinkers, unusual managers, and hyper-resourceful technocrats in all fields of human endeavour. The University is bound by an oath to achieve the highest standards of educational service in the world. 
+" />
+       
+</LinearLayout>
+</ScrollView>

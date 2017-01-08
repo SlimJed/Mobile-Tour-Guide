@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/aboutcu"
+        android:layout_width="fill_parent"
+        android:background="#F68EFB"
+        android:layout_height="fill_parent" >
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/aboutcutext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="About Covenant University"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/aboutcovenantuniversity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/covenantuni" />
+
+        <TextView
+            android:id="@+id/aboutcutext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Our Vision"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutcutext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="
+
+To be a leading World-Class Christian Mission University, committed to raising a new generation of leaders in all fields of human endeavour.
+\n\n"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/aboutcutext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Our Mission"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutcutext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="
+To create knowledge and restore man&apos;s dignity through a Human Development concept of the Total Man, employing innovative, leading edge, teaching and learning methods.
+The application of research that promotes and integrates life-transforming values, through Science, Technology and Human Capacity Building. 
+\n
+On October 21, 2002, the African educational landscape was radically altered by the formal entry of Covenant University (CU) into the Higher Education context. The University is located at Canaan Land, Ota, Ogun State Nigeria. 
+Covenant University is a growing, dynamic vision-birthed and vision-driven University, founded on a Christian mission ethos and committed to pioneering excellence at the cutting edge of learning. 
+Our core values of Spirituality, Possibility Mentality, Capacity Building, Integrity, Responsibility, Diligence and Sacrifice define our commitment to excellence. Covenant
+University is committed to transforming students into expert thinkers, innovative managers and resourceful technocrats in all fields of learning. The University operates with a specific mandate to revolutionize the educational 
+context of Africa and is best described as an education learning centre. The context of Covenant University is morally and spiritually-holding, with a stable academic calendar, a well-stocked library, state-of-the-art laboratories
+and an excellent road network. Our Mandate is to pioneer excellence along the parameters of teaching, research, performance, community impact and scholarship. 
+The University campus is an ultra-modern new generation campus.  Its luscious lawns, beautifully planted gardens and architectural masterpiece buildings, provide a unique, stimulating and empowering context 
+for inspiring research and creative activities.  Covenant University is fully residential for both staff and students.  At Covenant University there are ample opportunities for informal interaction between faculty and students thereby
+creating a special ambience of living and learning together.
+"
+            android:textColor="#000" />
+    </LinearLayout>
+
+		</ScrollView>
+

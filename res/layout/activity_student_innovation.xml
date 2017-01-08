@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/studentinnovation"
+        android:layout_width="fill_parent"
+        android:background="#F68EFB"
+        android:layout_height="fill_parent" >
+        
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        
+        
+        
+         <TextView
+            android:id="@+id/aboutcutext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Notable Innovations of some CU Alumni"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/cujaramall" />
+  
+    <TextView
+        android:id="@+id/studentinnovationtext"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="17sp"
+        android:text="
+1. Softcom  Imagio (IT firm) www.softcomimagio.com (Yomi Adedeji  Class of 2007 Computer Science)\n
+2. Jaramall (online grocery store) www.jaramall.com (Jinadu Adekunle Class of 2007 Computer Science)\n
+3. Ginawears – Retail Clothing (Lowore regina Omolola Class of 2011) www. Ginawears.wordpress.com\n
+4. Quote Concept Ltd – Media and Public Relations (Iretioluwa Oladapo Class of 2007)\n
+5.	Qerassa Business Solutions Ltd – Co working space, serviced offices, virtual office (Modupe Macaulay Class of 2010) www.capitalquare.com\n 
+6.	SHOT – Subzy Home of Technology – sales and supply of Computers, laptops, cameras, tablets etc (Ebenezer Akinyemi Class of 2008)\n
+7.	Prickly Pear – cleaning services (Tosin Sanusi Class of 2008)\n
+8.	OSHO and IBINAYO Development Company Ltd – Architectural, Construction and Real Estate (Osho Olajide and Ibinayo Adedeji Class of 2008)\n
+9.	Svelte Event Services – Event Services (Wey Aramide Class of 2008)\n
+10.	SureBiz Inc – Web hosting/Domain name Reg/bulksms/Software Development (Akinmade Akintoye Class of 2012) www.cloudware.ng\n
+11.	Posh me Integrated Company –  Interior, Events, Prints (Tijani Abosede Class of 2008)\n
+12.	Crystal Concept – Photography and video (Babalola Olaoluwa Abiodun)\n
+13.	Giigi Kwality Integrated Resources Ventures – office equipment supply, repair and maintenance (Gbadamosi David Abiola Class of 2008)\n
+14.	Kacks Clothing – Adola Adedokun (Class of 2013)\n
+15.	Alleb Media – Video Coverage, production, editing, filming (Bella Adebola Class of 2012)\n
+16. Chloes Place – Food packaging (Peter Olaoluwa Class of 2012)\n
+17.	Kory Art – Art works (Korede Awofuwa Class of 2010)\n
+18.	I – Cubic Ltd – Architecture and Interior Design (Bayo Ojo Class of 2006)\n
+19.	A.K.O Studio – Art works (Muyiwa Adeyemo Class of 2011)\n
+20.	LIC Truth – Hardware and Software development Solution company based in China (Dickson Nsofor, Class of 2013)\n
+" />
+        
+        
+    </LinearLayout>
+        
+   
+
+</ScrollView>

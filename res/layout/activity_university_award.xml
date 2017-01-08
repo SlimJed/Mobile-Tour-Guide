@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/universityaward"
+        android:layout_width="fill_parent"
+        android:background="#F68EFB"
+        android:layout_height="fill_parent" >
+        
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        
+        
+        
+         <TextView
+            android:id="@+id/aboutcutext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="CU Awards"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/cuawards1" />
+  
+    <TextView
+        android:id="@+id/universityawardtext"
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="17sp"
+        android:text="
+1.	In 2004, the Chancellor, Dr. David Oyedepo received an award in recognition of his laudable contribution in the development of education by Nigerian Academy of Education (NAE)\n
+2.	In 2005, National Universities Commission (NUC) rated Covenant University as the overall Best in a Nationwide Accreditation Programme.\n
+3.	In 2005, National Universities Commission (NUC) rated Covenant University as the Best Private University in Nigeria among 23 others.\n
+4.	In October 5, 2005, a survey by NUC also rated the University as the Most Preferred University among the private universities in the country by candidates seeking University admission through the Joint Admission and Matriculation Board (JAMB).\n
+5.	On January 12, 2006, Covenant University’s immediate past VC (Prof. Aize Obayan) received an award for the best Vice Chancellor of private universities in Nigeria for 2005\n
+6.	In 2007, Covenant University won the Best Private University with Strong Web Presence.\n
+7.	In 2007, Covenant University won the Best ICT Driven University Award by ICT Africa\n
+8.	In 2008, Covenant University won the “Fastest Growing Private University in Nigeria” at the Education Time’s Award of Excellence.\n
+9.	In 2009, Covenant University received the Best Entrepreneurship Promoter of the Year simply because of its CU’s unique custom-built Entrepreneurial Development Studies Programme (EDS)\n
+10.	In 2009, the University was adjudged the Best Private University at the Education Watch Awards,\n
+11.	In 2009, Covenant University won the Best ICT Driven University of the Year at the National ICT Merit Awards,\n
+12.	In 2010, Covenant University was rated an “A” in the NUC’s Pilot Institutional Accreditation.\n
+13.	In 2010, Covenant University won the Best ICT Driven University of the Year Award in West Africa by West Africa ICT Development Award (WADA).\n
+14.	In October 2011, Covenant University became the first University in Nigeria and Africa to host the Launch of UN Global Report on Habitat,\n
+15.	Covenant University hosted the Association of Vice-Chancellors of Nigerian Universities Conference (AVCNU) which held at the African Leadership Development Centre at Covenant University, 27–30 June 2011, the first time such a meeting was hosted by a Private University in Nigeria.\n
+16.	Covenant University was the first University in Nigeria and one of the very few in Africa to start training SAP Consultants in collaboration with SAP University Alliances and SAP Education in 2011\n
+17.	Covenant University is the only University in Nigeria and one of the very few in Africa with both the Autodesk Authorised Training and Certification Centre.\n
+18.	Covenant University also received the Best Marketing Students Award of the Year at the NIMN Award 2011\n
+19.	Covenant University emerged joint winner of the first edition of Unilever Idea Trophy.\n
+20.	Covenant University was ranked Number One (1) Private University in Nigeria (July 2011, January 2012, January 2013 and February, 2014 World Universities Webometric Rankings.\n
+21.	The University also came 2nd and 5th positions in a Design Competition organized by Ife Architecture Students Association of the Obafemi Awolowo University, Ile-Ife held in December 2012\n
+22.	In December 13, 2012 Covenant University won the Award of Best Maintained Educational Institution Award to the University, organized by the Nigerian Chapter of International Facility Management Association.\n
+23.	On November 5, 2013 Students of Computer and Information Science Department won Institute of Software Practitioners in Nigeria (ISPON) organized Software Competition\n
+24.	On December 27, 2013 Covenant University was awarded the Best Private University in Nigeria by Centre for Democratic Governance in Africa.\n
+25.	In 2013, Covenant University bagged the Nigerian Advancement Awards\n
+26.	Covenant University was ranked Number Two in Nigeria July 2014 World Universities Webometric Rankings.\n
+27.	Covenant University was ranked Number One in Nigeria , Number One in west Africa, and Number 12  in Africa (Webometric Ranking February, 2015 ).\n
+
+
+
+" />
+        
+        
+    </LinearLayout>
+        
+   
+
+</ScrollView>
